@@ -1,48 +1,6 @@
-# 如何在 ubuntu 下安装搜狗输入法
+# 建立my gitbook
 
-日期：2015-09-27 22:47
+日期：2016-09-12 19:47
 
-网址：<http://www.jianshu.com/p/a0c64adaedd4>
-
----
-
-在 linux 下要打中文要借助 fcitx 的帮助。
-
-下面是我在第一次使用 ubuntu 并安装搜狗输入法的过程及遇到的一些问题和解决方法。
-
-1.  首先在搜狗官网上下载 sogou for linux。
-    ![Sogou 官网](../images/work03/screen1.png)
-
-2.  打开下好的文件，在 ubuntu 14 中会直接进入应用商城并完成安装。
-
-3.  打开设置 进入 "language support"，在 "keyborad input" 中选择 "fcitx"。  
-    ![更改输入法系统](../images/work03/screen2.png)
-
-4.  重启后可以发现最右上面有了小企鹅的图标 ，点击选择配置。
-    ![添加搜狗输入法](../images/work03/screen3.png)
-    点加号，取消那个勾。在搜索中寻找 "sogou pingyin" 点 "ok"，然后就可以
-    使用了。
-
-在后来帮同学安装的过程中遇到了一些问题，最多的是 fcitx 的版本不够导致不能安装。
-
-在搜狗的官网上用应用商店安装 update 极慢 ，基本不动，所以我又去寻找安装 fcitx 的方法。
-
-<http://blog.csdn.net/sprintfwater/article/details/8866169>
-
-这是我找的解决方法。
-
-用终端完成，代码:
-
-> ```
-> sudo add-apt-repository ppa:fcitx-team/stable
-> 然后
-> sudo apt-get update
-> 更新完成后
-> sudo dpkg -i fcitx-sogoupinyin_0.0.0-2_i386.deb
-> 安装配置工具 
-> sudo apt-get install fcitx-config-gtk
-> 打开语言支持，换为 fcitx，注销
-> fcitx-config-gtk3
-> ```
-
-完成。
+第一天接触linux系统，我遇到了许多困惑。一直以来，习惯了使用windows系统，一下子变成linux系统实在难以适应。首先，左侧的各个图标我都没怎么见过，更不知道有什么用，找浏览器也找了很久。找到浏览器之后的操作与windows系统大致相同，感到无比亲切。但是linux系统使用的语言以英语为主，这实在是难倒了英语不太好的我。
+在按照要求注册github时我又遇到了难题。首先网络断了，我找了很久才在右上角找到了网络连接处。在输入网址后也始终刷不出内容，后来才发现是网址输入有误。注册环节相对顺利些，只是全英文的网页看起来还是有些吃力。在注册完成之后，我又找不到gitbook了，无奈之下之后使用了搜索方才找到。在经历了一系列邮箱验证之后，我终于建立了自己的book。在导入github环节我又遇到了新的困难，原来在create a new book里有专门的导入github选项，我只能重新建立我的book来完成签到。
